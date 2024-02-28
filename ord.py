@@ -11,4 +11,4 @@ Access_Token = 'X app's access token'
 Access_Secret = 'X app's access secret'
 
 tw =  OAuth1Session(Consumer_Key, Consumer_Secret, Access_Token, Access_Secret)
-tw.tweet(url)
+tw.post(url)
